@@ -15,7 +15,7 @@ export default function BlogCard({ post }) {
             </p>
 
             <div className="flex justify-between items-center mt-auto pt-4 border-t border-gray-100">
-                <span className="text-sm text-gray-400">User #{post.userId}</span>
+                <span className="text-sm text-gray-400">User ID: {post.userId}</span>
                 <a
                     href={`/blog/${post.id}`}
                     className="bg-indigo-600 text-white px-3 py-1 rounded text-sm hover:bg-indigo-700 transition"
